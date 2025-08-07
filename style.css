@@ -1,14 +1,14 @@
 :root {
-  --onyx: #0f0f0f;
-  --red-ncs: #b70e30;
-  --rust: #b7410e;
-  --satin-sheen-gold: #b7960e;
-  --anti-flash-white: #f1f1f1;
-  --gray: #808080;
+  --color-bg: #0f0f0f;         /* Onyx, background */
+  --color-surface: #f1f1f1;    /* Anti-flash white, content/cards */
+  --color-primary: #b70e30;    /* Red NCS, CTA/buttons */
+  --color-accent: #b7410e;     /* Rust, highlights */
+  --color-secondary: #b7960e;  /* Satin sheen gold, borders/accent */
+  --color-muted: #808080;      /* Optional gray for subtle elements */
 }
 
 body {
-  background-color: var(--onyx)
+  background-color: var(--color-bg)
 }
 
 .logo {
