@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: var(--color-bg)
+  background-color: var(--color-surface)
 }
 
 .logo {
@@ -26,6 +26,6 @@ body {
 
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: var(--color-surface);
+    background-color: var(--color-bg);
   }
 }
