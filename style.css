@@ -23,3 +23,9 @@ body {
   height: auto;
   display: block;
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--color-surface);
+  }
+}
