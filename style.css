@@ -26,6 +26,6 @@ body {
 
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: var(--color-bg);
+    background-color: #0f0f0f;
   }
 }
