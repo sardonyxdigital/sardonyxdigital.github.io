@@ -17,14 +17,14 @@
 body {
   background-color: var(--color-bg);
   font-family: Montserrat, Arial, sans-serif;
-  padding: 0 4rem;
+  padding: 0 3rem;
 }
 
 header {
   align-items: center;
   color: var(--color-surface);
   display: flex;
-  padding: 2rem 0;
+  padding: 1.5rem 0;
 }
 
 header img {
