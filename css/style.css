@@ -82,6 +82,14 @@ footer {
 }
 
 @media (max-width: 600px) {
+  header {
+    flex-direction: column;
+  }
+
+  header img {
+    margin-bottom: 1rem;
+  }
+
   section {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
