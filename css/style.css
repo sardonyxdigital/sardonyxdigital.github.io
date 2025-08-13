@@ -70,6 +70,11 @@ section img {
   width: 100%;
 }
 
+section img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
 footer {
   color: var(--color-muted);
   padding: 1.5rem;
