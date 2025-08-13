@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-bg: #0f0f0f;         /* Onyx, background */
+  --color-surface: #f1f1f1;    /* Anti-flash white, content/cards */
+  --color-primary: #b70e30;    /* Red NCS, CTA/buttons */
+  --color-accent: #b7410e;     /* Rust, highlights */
+  --color-secondary: #b7960e;  /* Satin sheen gold, borders/accent */
+  --color-muted: #808080;      /* Optional gray for subtle elements */
+  --color-gradient: linear-gradient(to bottom right, var(--color-secondary), var(--color-accent), var(--color-primary));
+}
+
+body {
+  background-color: var(--color-bg);
+  font-family: Montserrat, Arial, sans-serif;
+  padding: 0 4rem;
+}
+
+header {
+  align-items: center;
+  color: var(--color-surface);
+  display: flex;
+  padding: 2rem 0;
+}
+
+header img {
+  width: 5rem;
+  height: 5rem;
+}
+
+header nav {
+  align-items: center;
+  display: flex;
+}
+
+header nav a {
+  color: var(--color-surface);
+  margin: 1rem;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  color: var(--color-muted);
+}
+
+section {
+  border-radius: 1rem;
+}
+
+section img {
+  border-radius: 1rem;
+  height: auto;
+  width: 100%;
+}
