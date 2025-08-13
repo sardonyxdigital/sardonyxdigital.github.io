@@ -47,6 +47,10 @@ header nav a:hover {
   color: var(--color-muted);
 }
 
+header nav p {
+  cursor: default;
+}
+
 section {
   border-radius: 1rem;
 }
