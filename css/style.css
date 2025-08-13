@@ -26,7 +26,6 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 1.5rem 0;
-  position: relative;
 }
 
 header img {
@@ -37,9 +36,6 @@ header img {
 header nav {
   align-items: center;
   display: flex;
-  left: 50%;
-  position: absolute;
-  transform: translateX(-50%);
 }
 
 header a, footer a {
